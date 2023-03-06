@@ -18,9 +18,19 @@ https://github.com/EstherHeck/aspect/commits/fastscape_update_again_as_on14thJan
 This branch is built on commit a584ccce71a736a31b577895f26967c823b9e75d of the ASPECT main version
 which can be found at https://github.com/geodynamics/aspect.
 
+## Additional ASPECT plugins
+For the initial model conditions, we used the ASPECT plugins in the folder /plugins. 
+The file CMakeLists.txt can be used to install these plugins as shared libraries
+against your ASPECT installation.
+
+The files for the plugin that outputs the stress regime can be found here:
+https://github.com/anne-glerum/aspect/blob/paper-Victoria-microplate-rotation/source/postprocess/visualization/stress_regime.cc
+https://github.com/anne-glerum/aspect/blob/paper-Victoria-microplate-rotation/include/aspect/postprocess/visualization/stress_regime.h
+
 ## ASPECT input files
+The ASPECT input files can be found in the folder /prms.
 The file `prms/model_list.txt` contains a table linking
-prm file names to the model names in the paper. 
+prm file names to the model characteristics in the paper. 
 
 ## System requirements and installation
 ASPECT was built using the underlying library deal.II 10.0.0-pre 
