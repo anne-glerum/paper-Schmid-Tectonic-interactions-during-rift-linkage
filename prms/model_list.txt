@@ -1,0 +1,10 @@
+#	Model_name	seed_type	intermediate_angle_deg	comment
+1	001_model_10_v	v	10	
+2	002_model_30_v	v	30	
+3	003_model_50_v	v	50	
+4	004_model_10_i	i	10	
+5	005_model_30_i	i	30	
+6	006_model_50_i	i	50	
+7	007_model_10_y	y	10	
+8	008_model_30_y	y	30	
+9	009_model_50_y	y	50	reference model
